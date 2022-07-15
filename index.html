@@ -5,19 +5,105 @@
     <!-- <meta name="description" content="Page description. No longer than 155 characters."> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Profile Page">
+    <meta property="og:description" content="haharimoto's GitHub profile page">
+    <meta property="og:site_name" content="Profile Page"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
+    <header>
+      <a href="https://github.com/">
+        <i class="fa-brands fa-github" style="font-size: 1.8em;"></i>
+      </a>
+    </header>
+
     <div class="container">
-      <div class="card-gray" id="introduction">
-        <h1>Hey, it's me</h1>
-        <img class="profile-pic" src="images/92995009.jpg" width="100px" alt="Le Wagon logo">
-        <p>C'mon, you know who I am This took me lots of time to CODE</p>
-        <a class="btn-navy" href="#">Discover Le Wagon</a>
+      <ul class="path">
+        <li><a href="#" target="_blank"></a>GitHub</li>
+        <li><h4>/</h4></li>
+        <li><a id="transparent-path" href="https://github.com/haharimoto" target="_blank">User</a></li>
+        <li><h4>/</h4></li>
+        <li><a id="user-profile-path" href="#">User Profile</a></li>
+        <!-- <li>
+          <a href="#" id="public-label">
+            <span class="label label-default">Public</span>
+          </a>
+        </li> -->
+        <!-- ! public label does not appear the same as github -->
+      </ul>
+
+      <div class="row">
+        <div class="col-lg-3">
+        <!-- for first 1/3 of the container   -->
+          <div class="card">
+            <img class="profile-pic" src="images/92995009.jpg" alt="Le Wagon logo">
+            <h1 class="py-3">Harry Harimoto</h1>
+            <p class="my-0">Front End Developer<br> Tokyo, Japan</p>
+            <!-- <a class="btn-navy" href="#">Discover Le Wagon</a> -->
+          </div>
+
+          <div class="card-info">
+            <hr>
+            <div class="row">
+              <div class="col-sm-3 ps-4">
+                <p class="text-secondary mb-0">Email</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="mb-0">haharimoto@gmail.com</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3 ps-4">
+                <p class="text-secondary mb-0">Mobile</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="mb-0">+81 (080) 9283-0066</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3 ps-4">
+                <p class="text-secondary mb-0">Hours</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="mb-0">9:00-21:00</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="card-instagram">
+            <!-- TODO: scrape instagram -->
+            <div class="p-4">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque iusto ullam praesentium iure quis blanditiis, porro corporis tempora, neque iste ea esse laboriosam quas similique laborum odio, deleniti eaque aut!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+              <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+            </div>
+          </div>
+
+          <div class="card-instagram">
+            <hr>
+            <div class="p-4">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque iusto ullam praesentium iure quis blanditiis, porro corporis tempora, neque iste ea esse laboriosam quas similique laborum odio, deleniti eaque aut!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+              <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia veniam, quas reprehenderit aliquid ipsa minus? Harum quis quia illo rerum cum, exercitationem repudiandae voluptatem, excepturi ullam odit sint corporis laboriosam, at impedit architecto ipsam cumque sunt porro. Deleniti sed voluptatibus incidunt laudantium eligendi sapiente hic omnis odit minus quo adipisci, quibusdam nulla cupiditate consequatur, voluptas soluta itaque unde repellat nisi pariatur reiciendis sunt corrupti? Officia architecto cum atque voluptatibus omnis, quia veritatis. Molestiae, sunt?
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-gray">
-        <h2>Follow me</h2>
+
+
+
+
+      <footer class="mt-5">
         <ul class="list-inline">
           <li>
             <a href="https://github.com/haharimoto" target="_blank">
@@ -25,16 +111,19 @@
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/?lang=en" target="_blank">
-              <i class="fa-brands fa-twitter"></i>
+            <a href="https://instagram.com/jharimo" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a href="https://medium.com" target="_blank">
-              <i class="fa-brands fa-medium"></i>
+            <a href="https://www.upwork.com/freelancers/~0133d43d0682316f5f" target="_blank">
+              <img id="upwork-icon" src="images/1929178_upwork_icon.png" alt="Upwork logo">
+            </a>
           </li>
         </ul>
-      </div>
+      </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   </body>
-</html>
+  </html>
