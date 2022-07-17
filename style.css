@@ -47,13 +47,14 @@ footer {
   position: relative;
   /* has to be relative rather than fixed so that it scrolls correctly */
   bottom: 0;
-  width: 1248px;
+  max-width: 1248px;
   /* ! how to set this width relative to the container without hard coding 1280px like above */
   padding-bottom: 48px;
   padding-top: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.101);
   display: flex;
   justify-content: center;
+  /* display and justify-content properties centers horizontally */
 }
 
 .container {
