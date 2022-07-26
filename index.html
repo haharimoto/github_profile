@@ -22,7 +22,7 @@
 
     <div class="container">
       <ul class="path">
-        <li><a href="#" target="_blank"></a>GitHub</li>
+        <li><a id="transparent-github" href="https://github.com/" target="_blank">GitHub</a></li>
         <li><h4>/</h4></li>
         <li><a id="transparent-path" href="https://github.com/haharimoto" target="_blank">User</a></li>
         <li><h4>/</h4></li>
@@ -81,22 +81,51 @@
           <div class="card-instagram">
             <!-- TODO: scrape instagram -->
             <div class="p-4">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque iusto ullam praesentium iure quis blanditiis, porro corporis tempora, neque iste ea esse laboriosam quas similique laborum odio, deleniti eaque aut!</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
-              <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+              <p>◆ Multilingual graduate from UNC Greensboro seeking opportunities in web development/design</p>
+              <p>◆ Experienced in creating Landing pages, Profile pages, and Basic apps</p>
+              <p class="mb-0">◆ HTML, CSS, JavaScript, Ruby & Ruby on Rails</p>
             </div>
           </div>
 
           <div class="card-instagram">
             <hr>
-            <div class="p-4">
+            <div class="px-4 pt-2 pb-4">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque iusto ullam praesentium iure quis blanditiis, porro corporis tempora, neque iste ea esse laboriosam quas similique laborum odio, deleniti eaque aut!</p>
+              <br />
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil magnam recusandae sed eos in, quidem totam repellat voluptatum quisquam similique velit nobis ratione quod doloremque omnis laboriosam quas culpa.</p>
+              <br />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate quae ullam. Asperiores, natus dolore aut necessitatibus minus quidem veritatis quos voluptas eligendi excepturi vel sapiente magnam dolorem aliquid doloremque commodi ullam deleniti. Necessitatibus quia, vitae autem eius enim sequi, ducimus aperiam voluptatum magni, provident tempora placeat iure perspiciatis sed. Alias itaque, eveniet consectetur reprehenderit incidunt tempore vitae tempora amet illum ipsam exercitationem quam vel consequuntur inventore error, soluta quisquam. Cumque possimus in saepe facilis.</p>
+              <br />
               <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia veniam, quas reprehenderit aliquid ipsa minus? Harum quis quia illo rerum cum, exercitationem repudiandae voluptatem, excepturi ullam odit sint corporis laboriosam, at impedit architecto ipsam cumque sunt porro. Deleniti sed voluptatibus incidunt laudantium eligendi sapiente hic omnis odit minus quo adipisci, quibusdam nulla cupiditate consequatur, voluptas soluta itaque unde repellat nisi pariatur reiciendis sunt corrupti? Officia architecto cum atque voluptatibus omnis, quia veritatis. Molestiae, sunt?
               </p>
             </div>
           </div>
+
+          <!-- <script>
+            var token = 'your access token', // learn how to obtain it below
+            userid = 1362124742, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
+            num_photos = 5; // how much photos do you want to get
+
+            $.ajax({
+              url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
+              dataType: 'jsonp',
+              type: 'GET',
+              data: {access_token: token, count: num_photos},
+              success: function(data){
+                console.log(data);
+                for( x in data.data ){
+                  $('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
+                  // data.data[x].images.thumbnail.url - URL of image 150х150
+                  // data.data[x].images.standard_resolution.url - URL of image 612х612
+                  // data.data[x].link - Instagram post URL
+                }
+              },
+              error: function(data){
+                console.log(data); // send the error notifications to console
+              }
+            });
+          </script> -->
+
         </div>
       </div>
 

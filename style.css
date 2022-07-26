@@ -97,9 +97,14 @@ footer {
   pointer-events: none;
 }
 
+#transparent-github {
+  color: #58a6ff;
+  opacity: 70%;
+}
+
 #transparent-path {
   color: #58a6ff;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 #upwork-icon {
