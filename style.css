@@ -153,9 +153,11 @@ footer {
 .profile-pic {
   border-radius: 50%;
   width: 166px;
+  height: 166px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  opacity: 70%;
   /* margin and display property align pic to center */
 }
 
