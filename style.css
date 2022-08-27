@@ -158,7 +158,7 @@ footer {
   margin-right: auto;
   display: block;
   opacity: 90%;
-  filter: saturate(70%);
+  filter: saturate(80%);
   /* margin and display property align pic to center */
 }
 
