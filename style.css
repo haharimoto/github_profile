@@ -115,13 +115,37 @@ footer {
 }
 
 #clock {
-  color: transparent;
+  /* color: transparent;
   font-size: 74px;
   font-weight: bolder;
   background-image: url(https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
   background-clip: text;
   -webkit-background-clip: text;
-  background-size: cover;
+  background-size: cover; */
+  color: white;
+  opacity: 50%;
+}
+
+.insta_list {
+  padding-left: 97px;
+  padding-top: 27px;
+  padding-bottom: 44px;
+}
+
+.insta_list>a>img {
+  border-radius: 4px;
+  width: 200px;
+  height: 253.5px;
+  padding: 3px 1px;
+  object-fit: cover;
+  transition: filter 0.6s ease;
+  /* The image keeps its aspect ratio and fills the given dimension */
+}
+
+.insta_list>a>img:hover {
+  filter: brightness(60%);
+  /* width: 205px;
+  height: 258.5px; */
 }
 
 /* #public-label {
@@ -152,12 +176,13 @@ footer {
 
 .profile-pic {
   border-radius: 50%;
+  border: #0D1117 1px solid;
   width: 166px;
-  height: 166px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  opacity: 90%;
+  /* opacity: 90%; */
   filter: saturate(80%);
   /* margin and display property align pic to center */
 }
