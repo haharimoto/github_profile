@@ -126,13 +126,13 @@ footer {
   opacity: 50%;
 }
 
-.insta_list {
+.fav-insta {
   padding-left: 97px;
   padding-top: 27px;
   padding-bottom: 44px;
 }
 
-.insta_list>a>img {
+.fav-insta>img {
   border-radius: 4px;
   width: 200px;
   height: 253.5px;
@@ -142,11 +142,9 @@ footer {
   /* The image keeps its aspect ratio and fills the given dimension */
 }
 
-.insta_list>a>img:hover {
+/* .insta_list>a>img:hover {
   filter: brightness(60%);
-  /* width: 205px;
-  height: 258.5px; */
-}
+} */
 
 /* #public-label {
   pointer-events: none;
