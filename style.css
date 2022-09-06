@@ -62,7 +62,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
-  padding: 0px 32px !important;
+  padding: 0px 32px;
 }
 
 .card {
@@ -127,24 +127,44 @@ footer {
 }
 
 .fav-insta {
-  padding-left: 97px;
+  padding-left: 85px;
   padding-top: 27px;
-  padding-bottom: 44px;
+  /* padding-bottom: 44px; */
 }
 
-.fav-insta>img {
+.col-4 {
+  width: 200px;
+  padding: 0px;
+}
+
+.image-wrap {
+  width: 200px;
+}
+
+.image-wrap>img {
   border-radius: 4px;
   width: 200px;
   height: 253.5px;
-  padding: 3px 1px;
+  padding: 3px 3px;
   object-fit: cover;
-  transition: filter 0.6s ease;
-  /* The image keeps its aspect ratio and fills the given dimension */
+    /* The image keeps its aspect ratio and fills the given dimension */
 }
 
-/* .insta_list>a>img:hover {
-  filter: brightness(60%);
+/* .image-wrap>img::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+  background-image: linear-gradient(to bottom, gray, navy)
 } */
+
+
+.see-more {
+  opacity: 50%;
+}
 
 /* #public-label {
   pointer-events: none;
