@@ -5,7 +5,6 @@ function currentTime() {
   let ss = date.getSeconds();
   let session = "AM";
 
-
   if(hh > 12){
       session = "PM";
   }
