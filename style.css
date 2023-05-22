@@ -85,12 +85,11 @@ footer {
   border-radius: 4px;
   margin: 10px 0px;
 }
-/* .btn-navy {
-  color: rgba(245, 245, 245, 0.459);
-  background-color: rgba(23, 0, 139, 0.534);;
-  padding: 10px 15px;
-  border-radius: 4px;
-} */
+
+.skills > img {
+  height: 25%;
+  width: 25%;
+}
 
 #user-profile-path {
   color: #58a6ff;
